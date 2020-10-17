@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(246, 248, 250);
+  color:lightgray;
+}
+
+.App {
+  max-width: 1500px;
+  min-width: 800px;
+}
+
+.App main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-top: 80px;
+  position: relative;
+}
+
+.App .App-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  z-index: 999
+}
+
+#image-resize{
+  height: 2em;
+  padding: 0.5em 0em 0.5em 0.2em;
+}
+
+.App section {
+  margin: 20px;
+}
+
+.App-side {
+  display: flex;
+  min-width: 50px;
+  flex-direction: column;
+  flex-basis: 20%;
+  width: 21%;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+.App-main {
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  flex-basis: 74%;
+  width: 74%;
+}
+
+.App-links {
+  padding: 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.App-links li {
+  list-style-type: none;
+  font-weight: bold;
+  margin: 10px;
+}
+.App-links li:hover{
+  font-size: large;
+}
+
+.image-pill{
+  height: 14px;
+  width: 14px;
+}
+
+.link-span{
+  color: #000;
+}

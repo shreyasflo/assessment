@@ -1,0 +1,34 @@
+.product-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 12px;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+
+.product-tag {
+  padding: 3px 9px 3px 9px;
+  margin: 5px;
+  border: 1px solid lightgray;
+  border-radius: 0.5em;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.product-subtitle {
+  font-size: 14px;
+  color: grey;
+}

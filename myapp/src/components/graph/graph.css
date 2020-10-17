@@ -1,0 +1,12 @@
+.graph-container {
+    background-color: white;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.graph-title{
+    color: #000;
+    top: -2%;
+    left: 1%;
+    position: absolute;
+}
