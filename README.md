@@ -2,7 +2,7 @@
 
 First of all, hope you're safe and doing great !! 
 
-You can visit the deployed website [here](https://adaptable-cobweb.surge.sh) powered by[Surge](https://surge.sh/)
+You can visit the deployed website [here](https://adaptable-cobweb.surge.sh) powered by [Surge](https://surge.sh/)
 
 ### Table
 There is one table component. It was developed using [react-data-table-component](https://www.npmjs.com/package/react-data-table-component), added features like sorting in asc/desc order on the columns,
