@@ -15,4 +15,12 @@ were plotted against Date along the X-axis.
 ### Overview
 Built a Reviews component to show the customer feeback and additional details about the product upon click of `OVERVIEW`. 
 
-[https://nodei.co/npm/surge.png?global=true](https://nodei.co/npm/surge/)
+```{r, echo=FALSE}
+# Define variable containing url
+url <- "https://nodei.co/npm/surge.png"
+```
+## Some cat!
+<center><img src="`r url`"></center>
+
+## Alternatively...
+![](`r url`)
